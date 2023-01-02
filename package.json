@@ -47,8 +47,8 @@
     "commitMessage": "Deploy Storybook to GitHub Pages"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
   },
   "dependencies": {
     "@n1ru4l/use-async-effect": "^1.2.4",
@@ -64,7 +64,7 @@
     "@storybook/addon-links": "^6.0.5",
     "@storybook/addon-storysource": "^6.0.5",
     "@storybook/addon-viewport": "^6.0.5",
-    "@storybook/addons": "^6.0.5",
+    "@storybook/addons": "^6.4.0",
     "@storybook/preset-scss": "^1.0.2",
     "@storybook/react": "^6.0.5",
     "@storybook/storybook-deployer": "^2.8.6",
@@ -92,17 +92,20 @@
     "jest-environment-enzyme": "^7.1.2",
     "jest-enzyme": "^7.1.2",
     "lodash": "^4.17.19",
-    "node-sass": "^4.14.1",
+    "node-sass": "^8.0.0",
     "prettier": "^2.0.5",
     "react-docgen-typescript-loader": "^3.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0",
     "remark-cli": "^8.0.1",
     "remark-preset-lint-recommended": "^4.0.1",
     "remark-preset-prettier": "^0.4.0",
-    "sass-loader": "^9.0.3",
+    "sass-loader": "^13.2.0",
     "style-loader": "^1.2.1",
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
+  },
+  "volta": {
+    "node": "16.19.0"
   }
 }
